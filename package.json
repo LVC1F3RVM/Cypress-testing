@@ -1,0 +1,22 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LVC1F3RVM/Cypress-testing.git"
+  },
+  "author": "lvc1f3rvm@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LVC1F3RVM/Cypress-testing/issues"
+  },
+  "homepage": "https://github.com/LVC1F3RVM/Cypress-testing#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.3.0"
+  }
+}
