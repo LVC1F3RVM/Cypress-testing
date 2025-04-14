@@ -21,3 +21,8 @@ Cypress.on("uncaught:exception", (err, runnable) => {
   // failing the test
   return false;
 });
+
+Cypress.on("window:alert", (text) => {
+  console.log("Suppressed alert:", text); // Optional logging
+  return true; // Prevents the alert from appearing
+});
